@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fundación Padrinos Doc Dog | Adopción Responsable</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Iconos -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- ===========================
+     HERO
+=========================== -->
+
+<section class="hero">
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+
+        <!-- AQUÍ VA TU LOGO -->
+        <div class="logo-box">
+
+            <img src="assets/logo.png" alt="Logo Fundación" class="logo">
+
+        </div>
+
+        <h1>Fundación Padrinos Doc Dog</h1>
+
+        <h2>Sistema Profesional de Adopción Responsable</h2>
+
+        <p>
+
+            Adoptar no cambia el mundo entero...
+
+            <br>
+
+            Pero cambia el mundo de un animal para siempre.
+
+        </p>
+
+        <button id="btnComenzar">
+
+            Comenzar Solicitud
+
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ===========================
+     FORMULARIO
+=========================== -->
+
+<section class="form-section" id="formularioSection">
+
+<div class="container">
+
+<!-- SIDEBAR -->
+
+<aside class="sidebar">
+
+<div class="sidebar-logo">
+
+<img src="assets/logo.png" alt="Logo">
+
+</div>
+
+<h2>
+
+Fundación
+
+<br>
+
+Padrinos Doc Dog
+
+</h2>
+
+<p>
+
+Gracias por querer cambiar la vida de uno de nuestros peluditos.
+
+Nuestro objetivo es encontrar hogares responsables y llenos de amor.
+
+</p>
+
+<div class="tips">
+
+<div class="tip">
+
+<i class="fa-solid fa-heart"></i>
+
+<span>Adoptar salva vidas.</span>
+
+</div>
+
+<div class="tip">
+
+<i class="fa-solid fa-house"></i>
+
+<span>Buscamos hogares responsables.</span>
+
+</div>
+
+<div class="tip">
+
+<i class="fa-solid fa-shield-dog"></i>
+
+<span>Hacemos seguimiento post adopción.</span>
+
+</div>
+
+<div class="tip">
+
+<i class="fa-solid fa-paw"></i>
+
+<span>Promovemos el bienestar animal.</span>
+
+</div>
+
+</div>
+
+</aside>
+
+<!-- CONTENIDO -->
+
+<main class="main">
+
+<div class="card">
+
+<div class="top">
+
+<h1>
+
+Formulario de Adopción
+
+</h1>
+
+<p>
+
+Completa cada sección con información real.
+
+</p>
+
+</div>
+
+<!-- BARRA -->
+
+<div class="progress">
+
+<div class="progress-fill"></div>
+
+</div>
+
+<div class="step-indicator">
+
+Paso <span id="stepNumber">1</span> de 5
+
+</div>
+
+<form id="formulario">
+
+<!-- ===================================================== -->
+
+<!-- PASO 1 -->
+
+<!-- ===================================================== -->
+
+<div class="form-step active">
+
+<h2>
+
+<i class="fa-solid fa-user"></i>
+
+Información Personal
+
+</h2>
+
+<div class="grid">
+
+<div class="input-group">
+
+<label>
+
+Nombres y Apellidos *
+
+</label>
+
+<input
+type="text"
+name="nombre"
+required>
+
+</div>
+
+<div class="input-group">
+
+<label>
+
+Edad *
+
+</label>
+
+<input
+type="number"
+name="edad"
+required>
+
+</div>
+
+<div class="input-group">
+
+<label>
+
+Ocupación *
+
+</label>
+
+<input
+type="text"
+name="ocupacion"
+required>
+
+</div>
+
+<div class="input-group">
+
+<label>
+
+Dirección *
+
+</label>
+
+<input
+type="text"
+name="direccion"
+required>
+
+</div>
+
+<div class="input-group">
+
+<label>
+
+Celular *
+
+</label>
+
+<input
+type="tel"
+name="celular"
+required>
+
+</div>
+
+<div class="input-group">
+
+<label>
+
+Correo Electrónico *
+
+</label>
+
+<input
+type="email"
+name="email"
+required>
+
+</div>
+
+<div class="input-group full">
+
+<label>
+
+Perfil de Facebook o Instagram
+
+</label>
+
+<input
+type="text"
+name="redes">
+
+</div>
+
+</div>
+
+<div class="buttons">
+
+<button
+type="button"
+class="next-btn">
+
+Continuar
+
+<i class="fa-solid fa-arrow-right"></i>
+
+</button>
+
+</div>
+
+</div>
+
+<!-- =======  EL PASO 2  ======= -->
+<!-- ===================================================== -->
+<!-- PASO 2 -->
+<!-- ===================================================== -->
+
+<div class="form-step">
+
+    <h2>
+        <i class="fa-solid fa-paw"></i>
+        Interés en la Adopción
+    </h2>
+
+    <div class="input-group">
+
+        <label>
+            Antes de empezar ¿Estás interesado en algún perro o gato en particular? Si es así escribe su nombre aquí.
+        </label>
+
+        <input
+            type="text"
+            name="animal_interes"
+            placeholder="Ejemplo: Max, Luna, Rocky...">
+
+    </div>
+
+    <div class="input-group">
+
+        <label>
+            En caso de que ya haya sido adoptado ¿Estarías interesado en otro?
+        </label>
+
+        <select name="otro_interes" required>
+
+            <option value="">Seleccione una opción</option>
+
+            <option>Si</option>
+
+            <option>No</option>
+
+        </select>
+
+    </div>
+
+    <div class="input-group">
+
+        <label>
+            ¿Por qué deseas adoptar un perro o gato?
+        </label>
+
+        <select
+            name="motivo_adopcion"
+            required>
+
+            <option value="">Seleccione una opción</option>
+
+            <option>Compañía</option>
+
+            <option>Cuidar la casa</option>
+
+            <option>Porque me lo pidieron mis hijos</option>
+
+            <option>Porque quiero ayudar a un animal sin hogar</option>
+
+        </select>
+
+    </div>
+
+    <div class="buttons">
+
+        <button
+            type="button"
+            class="prev-btn">
+
+            <i class="fa-solid fa-arrow-left"></i>
+
+            Anterior
+
+        </button>
+
+        <button
+            type="button"
+            class="next-btn">
+
+            Continuar
+
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </button>
+
+    </div>
+
+</div>
+
+<!-- ===================================================== -->
+<!-- PASO 3 -->
+<!-- ===================================================== -->
+
+<div class="form-step">
+
+    <h2>
+
+        <i class="fa-solid fa-house"></i>
+
+        Vivienda y Familia
+
+    </h2>
+
+    <div class="grid">
+
+        <div class="input-group">
+
+            <label>
+                ¿Cuántas personas habitan en el hogar?
+            </label>
+
+            <input
+                type="number"
+                name="personas_hogar"
+                required>
+
+        </div>
+
+        <div class="input-group">
+
+            <label>
+                ¿Están todos los miembros de la familia de acuerdo en adoptar?
+            </label>
+
+            <select
+                name="familia_acuerdo"
+                required>
+
+                <option value="">Seleccione</option>
+
+                <option>Sí</option>
+
+                <option>No</option>
+
+                <option>No lo he consultado</option>
+
+            </select>
+
+        </div>
+
+        <div class="input-group">
+
+            <label>
+                ¿Hay niños menores de 5 años en el hogar?
+            </label>
+
+            <select
+                name="ninos"
+                required>
+
+                <option value="">Seleccione</option>
+
+                <option>Si</option>
+
+                <option>No</option>
+
+            </select>
+
+        </div>
+
+        <div class="input-group">
+
+            <label>
+                ¿En qué tipo de vivienda resides actualmente?
+            </label>
+
+            <select
+                name="tipo_vivienda"
+                required>
+
+                <option value="">Seleccione</option>
+
+                <option>Casa</option>
+
+                <option>Apartamento</option>
+
+                <option>Casa-lote ó Casa campestre</option>
+
+                <option>Finca</option>
+
+            </select>
+
+        </div>
+
+        <div class="input-group">
+
+            <label>
+                ¿Eres propietario o alquilas la propiedad?
+            </label>
+
+            <select
+                name="propiedad"
+                required>
+
+                <option value="">Seleccione</option>
+
+                <option>Propia</option>
+
+                <option>Arriendo</option>
+
+                <option>Familiar</option>
+
+            </select>
+
+        </div>
+
+        <div class="input-group">
+
+            <label>
+                Si es en arriendo ¿permiten mascotas?
+            </label>
+
+            <select
+                name="permite_mascotas">
+
+                <option value="">Seleccione</option>
+
+                <option>Si</option>
+
+                <option>No</option>
+
+            </select>
+
+        </div>
+
+    </div>
+
+    <div class="buttons">
+
+        <button
+            type="button"
+            class="prev-btn">
+
+            <i class="fa-solid fa-arrow-left"></i>
+
+            Anterior
+
+        </button>
+
+        <button
+            type="button"
+            class="next-btn">
+
+            Continuar
+
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </button>
+
+    </div>
+
+</div>
+
+<!-- ===================================================== -->
+<!-- PASO 4 -->
+<!-- ===================================================== -->
+
+<div class="form-step">
+
+    <h2>
+
+        <i class="fa-solid fa-heart"></i>
+
+        Compromiso y Responsabilidad
+
+    </h2>
+
+    <div class="input-group">
+
+        <label>
+            ¿Hay otras mascotas en la casa?
+        </label>
+
+        <select name="otras_mascotas">
+
+            <option value="">Seleccione</option>
+
+            <option>Perr@</option>
+
+            <option>Gat@</option>
+
+            <option>Otro</option>
+
+            <option>Ninguna</option>
+
+        </select>
+
+    </div>
+
+    <div class="input-group">
+
+        <label>
+            ¿Dónde viviría la mascota?
+        </label>
+
+        <select name="donde_viviria">
+
+            <option value="">Seleccione</option>
+
+            <option>Dentro de la casa</option>
+
+            <option>Patio</option>
+
+            <option>Terraza</option>
+
+            <option>Jardín</option>
+
+            <option>Finca</option>
+
+        </select>
+
+    </div>
+
+    <div class="input-group">
+
+        <label>
+            ¿Qué planes tendrías con tu mascota si debes mudarte o viajar?
+        </label>
+
+        <select name="viajes">
+
+            <option value="">Seleccione</option>
+
+            <option>Lo llevo conmigo o busco un hogar temporal</option>
+
+            <option>Lo dejaría con un familiar o amigo</option>
+
+            <option>Buscaría otra familia que lo adopte</option>
+
+        </select>
+
+    </div>
+
+    <div class="input-group">
+
+        <label>
+            Si la mascota es cachorro ¿te comprometes a esterilizarlo entre los 6 y 8 meses?
+        </label>
+
+        <select name="esterilizacion">
+
+            <option value="">Seleccione</option>
+
+            <option>Sí</option>
+
+            <option>No</option>
+
+        </select>
+
+    </div>
+
+    <div class="input-group">
+
+        <label>
+            ¿Entiendes que una mascota puede vivir más de 10 años?
+        </label>
+
+        <select name="compromiso_10">
+
+            <option value="">Seleccione</option>
+
+            <option>Sí</option>
+
+            <option>No lo había pensado</option>
+
+        </select>
+
+    </div>
+
+    <div class="input-group">
+
+        <label>
+            ¿Tienes tiempo y disposición diaria para pasear a un perro o jugar con un gato?
+        </label>
+
+        <select name="tiempo">
+
+            <option value="">Seleccione</option>
+
+            <option>Sí, todos los días</option>
+
+            <option>Solo algunos días</option>
+
+            <option>No, no tengo tiempo</option>
+
+        </select>
+
+    </div>
+
+    <div class="input-group">
+
+        <label>
+            ¿Qué harías si el animal enferma y requiere atención veterinaria?
+        </label>
+
+        <select name="veterinario">
+
+            <option value="">Seleccione</option>
+
+            <option>Lo llevo al veterinario sin dudarlo</option>
+
+            <option>Busco ayuda, pero si es muy costoso no podría hacer mucho</option>
+
+            <option>Lo devolvería o buscaría otra solución</option>
+
+        </select>
+
+    </div>
+
+    <div class="buttons">
+
+        <button
+            type="button"
+            class="prev-btn">
+
+            <i class="fa-solid fa-arrow-left"></i>
+
+            Anterior
+
+        </button>
+
+        <button
+            type="button"
+            class="next-btn">
+
+            Continuar
+
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </button>
+
+    </div>
+
+</div>
+
+<!-- =======  LA PARTE 3 ======= -->
+
+<!-- ===================================================== -->
+<!-- PASO 5 -->
+<!-- ===================================================== -->
+
+<div class="form-step">
+
+    <h2>
+
+        <i class="fa-solid fa-circle-check"></i>
+
+        Seguimiento y Confirmación
+
+    </h2>
+
+    <div class="input-group">
+
+        <label>
+            ¿Estás dispuesto(a) a mantenernos informados sobre el bienestar de la mascota adoptada, incluyendo enviarnos fotos y contarnos cómo se encuentra?
+        </label>
+
+        <select
+            name="seguimiento"
+            required>
+
+            <option value="">Seleccione</option>
+
+            <option>Sí, con gusto</option>
+
+            <option>Sí, aunque no con mucha frecuencia</option>
+
+            <option>Prefiero no comprometerme a eso</option>
+
+        </select>
+
+    </div>
+
+    <div class="input-group">
+
+        <label>
+            ¿Estás dispuesto a recibir una visita de seguimiento o una videollamada posterior?
+        </label>
+
+        <select
+            name="visita"
+            required>
+
+            <option value="">Seleccione</option>
+
+            <option>Sí</option>
+
+            <option>No</option>
+
+            <option>Depende</option>
+
+        </select>
+
+    </div>
+
+    <div class="input-group">
+
+        <label>
+            ¿Estás al tanto de que el animal necesitará un período aproximado de 15 a 30 días para adaptarse?
+        </label>
+
+        <select
+            name="adaptacion"
+            required>
+
+            <option value="">Seleccione</option>
+
+            <option>Sí</option>
+
+            <option>No</option>
+
+        </select>
+
+    </div>
+
+    <div class="input-group">
+
+        <label>
+            Ante una inadaptación o problema de comportamiento en el animal, ¿qué harías?
+        </label>
+
+        <textarea
+            name="problemas_comportamiento"
+            rows="5"
+            placeholder="Escribe tu respuesta..."
+            required></textarea>
+
+    </div>
+
+    <div class="input-group">
+
+        <label>
+            Describe las características del animal que buscas adoptar.
+        </label>
+
+        <textarea
+            name="caracteristicas"
+            rows="5"
+            placeholder="Escribe tu respuesta..."
+            required></textarea>
+
+    </div>
+
+    <div class="input-group">
+
+        <label>
+            Si la mascota es cachorro, ¿eres consciente que requerirá mayor atención y paciencia?
+        </label>
+
+        <select
+            name="cachorro"
+            required>
+
+            <option value="">Seleccione</option>
+
+            <option>SI</option>
+
+            <option>NO</option>
+
+        </select>
+
+    </div>
+
+    <div class="input-group">
+
+        <label>
+            ¿Qué ocurriría si el cachorro crece más de lo esperado?
+        </label>
+
+        <textarea
+            name="crecimiento"
+            rows="5"
+            placeholder="Escribe tu respuesta..."
+            required></textarea>
+
+    </div>
+
+    <div class="buttons">
+
+        <button
+            type="button"
+            class="prev-btn">
+
+            <i class="fa-solid fa-arrow-left"></i>
+
+            Anterior
+
+        </button>
+
+        <button
+            type="submit"
+            class="submit-btn">
+
+            <i class="fa-solid fa-paper-plane"></i>
+
+            Enviar Solicitud
+
+        </button>
+
+    </div>
+
+</div>
+
+</form>
+
+</div>
+
+</main>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- PANTALLA DE CARGA -->
+<!-- ========================= -->
+
+<div id="loader" class="loader hidden">
+
+    <div class="loader-box">
+
+        <div class="spinner"></div>
+
+        <h2>Enviando solicitud...</h2>
+
+        <p>
+
+            Estamos registrando tu información.
+
+            <br>
+
+            Por favor espera unos segundos.
+
+        </p>
+
+    </div>
+
+</div>
+
+<!-- ========================= -->
+<!-- MENSAJE FINAL -->
+<!-- ========================= -->
+
+<div id="successModal" class="success-modal hidden">
+
+    <div class="success-box">
+
+        <div class="success-icon">
+
+            <i class="fa-solid fa-heart-circle-check"></i>
+
+        </div>
+
+        <h2>
+
+            ¡Solicitud enviada correctamente!
+
+        </h2>
+
+        <p>
+
+            Gracias por confiar en la
+
+            <strong>Fundación Padrinos Doc Dog.</strong>
+
+            <br><br>
+
+            Hemos recibido tu solicitud.
+
+            Nuestro equipo la revisará cuidadosamente y nos pondremos en contacto contigo muy pronto.
+
+        </p>
+
+        <button id="finishBtn">
+
+            Finalizar
+
+        </button>
+
+    </div>
+
+</div>
+
+<!-- ========================= -->
+<!-- FOOTER -->
+<!-- ========================= -->
+
+<footer>
+
+    <p>
+
+        © 2026 Fundación Padrinos Doc Dog
+
+    </p>
+
+    <span>
+
+        Sistema Profesional de Adopciones
+
+    </span>
+
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
