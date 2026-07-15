@@ -333,21 +333,10 @@ form.addEventListener("submit", async function(e){
 
     const formData = new FormData(form);
 
-    const datos = Object.fromEntries(formData.entries());
-
-    try{
-
-        const response = await fetch(URL_SCRIPT,{
-
-            method:"POST",
-
-            headers:{
-                "Content-Type":"application/json"
-            },
-
-            body:JSON.stringify(datos)
-
-        });
+const response = await fetch(URL_SCRIPT, {
+    method: "POST",
+    body: formData
+});
 
         const resultado = await response.json();
 
